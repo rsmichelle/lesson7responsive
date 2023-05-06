@@ -1,3 +1,26 @@
-body {
-  background-color: aquamarine;
+h1 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 95px;
+}
+
+.hero {
+  background-color: rgb(226, 243, 237);
+  text-align: center;
+  padding: 160px 0;
+}
+.hero p {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 30px;
+}
+.hero h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  line-height: 1.5;
+}
+.btn-primary {
+  border-radius: 10px;
+  font-size: 28px;
+  padding: 20px 40px;
 }
