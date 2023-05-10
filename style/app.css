@@ -38,6 +38,20 @@ p {
   font-size: 36px;
   line-height: 1.5;
 }
+.about-section {
+  padding: 110px 50px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 1.5;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--body-font-family);
+}
+.about-section-content {
+  margin: 30px;
+}
 .btn-primary {
   border-radius: 10px;
   font-size: 28px;
@@ -48,18 +62,18 @@ p {
   border-radius: 10px;
   font-size: 28px;
   padding: 20px 40px;
-  line-height: 27px;
+  line-height: 25px;
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
 }
 .project-description {
-  padding: 110px 50px;
+  padding: 120px 60px;
 }
 .project {
   font-size: 35px;
   font-family: var(--heading-font-family);
 }
-@media (max-width: 960px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 50px;
   }
@@ -67,11 +81,21 @@ p {
     font-size: 45px;
   }
   .hero {
-    padding: 50px 10px;
+    padding: 80px 20px;
   }
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+  .about-section h1 {
+    font-size: 50px;
+  }
+  img {
+    width: 50%;
   }
 }
 .workInquiry {
@@ -92,4 +116,7 @@ button {
 }
 h4 {
   padding: 30px;
+}
+img {
+  border-radius: 10px;
 }
