@@ -6,7 +6,7 @@
 }
 h1,
 h2,
-h2,
+h3,
 h4,
 h5,
 h6 {
@@ -38,19 +38,28 @@ p {
   font-size: 36px;
   line-height: 1.5;
 }
-.about-section {
+.content-container {
   padding: 110px 50px;
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 1.5;
 }
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--body-font-family);
 }
-.about-section-content {
+.content {
   margin: 30px;
+}
+.content h3 {
+  font-size: 24px;
+  margin: 25px, 0px;
+  line-height: 1px;
+  padding: 15px;
+}
+.content p {
+  font-size: 14px;
 }
 .btn-primary {
   border-radius: 10px;
@@ -87,15 +96,12 @@ p {
     padding: 0;
     text-align: center;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
-  .about-section h1 {
+  .content-container h1 {
     font-size: 50px;
-  }
-  img {
-    width: 50%;
   }
 }
 .workInquiry {
