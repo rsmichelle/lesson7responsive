@@ -23,10 +23,13 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+h5 {
+  font-size: 39px;
+}
 .hero {
   background-color: var(--branding-color);
   text-align: center;
-  padding: 85px 0;
+  padding: 60px 0;
 }
 .hero p {
   font-size: 24px;
@@ -39,7 +42,7 @@ p {
   line-height: 1.5;
 }
 .content-container {
-  padding: 110px 50px;
+  padding: 10px 50px;
 }
 .content-container h1 {
   font-size: 64px;
@@ -61,7 +64,27 @@ p {
 .content p {
   font-size: 14px;
 }
+nav {
+  padding: 35px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 25px;
+}
+nav li.active a,
+nav a:hover {
+  color: #6c63ff;
+}
 
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  margin-left: 20px;
+}
 .btn-primary {
   border-radius: 10px;
   font-size: 28px;
@@ -91,7 +114,8 @@ p {
     font-size: 45px;
   }
   .hero {
-    padding: 80px 20px;
+    padding: 50px;
+    margin: 0;
   }
   .project-description {
     padding: 0;
@@ -103,6 +127,12 @@ p {
   }
   .content-container h1 {
     font-size: 50px;
+  }
+  nav a {
+    font-size: 14px;
+  }
+  h5 {
+    font-size: 20px;
   }
 }
 .workInquiry {
@@ -116,7 +146,7 @@ button {
   font-size: 20px;
   padding: 10px 20px;
   line-height: 27px;
-  margin-left: 220px;
+
   margin-top: 10px;
   background-color: #6c63ff;
   border: none;
